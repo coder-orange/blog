@@ -16,7 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-部署到 https://<USERNAME>.github.io/<REPO>
+# 部署到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:coder-orange/blog.git main:gh-pages
 
 cd -
