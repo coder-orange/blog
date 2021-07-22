@@ -1,5 +1,7 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <div>21312312123</div>
+  </div>
 </template>
 
 <script>
