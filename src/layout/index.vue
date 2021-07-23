@@ -1,10 +1,11 @@
 <template>
   <div class="container">
-    <SideBar></SideBar>
-    <BackGround />
-    <div class="main">
-      <slot></slot>
-    </div>
+    <BackGround>
+      <SideBar></SideBar>
+      <div class="main">
+        <slot></slot>
+      </div>
+    </BackGround>
   </div>
 </template>
 
